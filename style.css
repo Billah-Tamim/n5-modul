@@ -1,0 +1,48 @@
+body{
+    font-family: 'Fresca', sans-serif;
+    margin: 0;
+}
+.color{
+    color: rgb(178, 0, 0);
+}
+.details, .photo{
+    width: 42%;
+    margin: 5%;
+    padding: 3p%;
+}
+.photo img{
+    width: 100%;
+}
+.flex, #card{
+    display: flex;
+}
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(cyan, orange);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+#s_one{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#s_two{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    height: 400px;
+    width: 40%;
+    padding: 10px 5%;
+    margin: 0 7%;
+    border-left: 8px solid green;
+    margin-bottom: 80px;
+    border-image: linear-gradient(blue, silver);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px black;
+}
+footer p{
+    text-align: center;
+}
